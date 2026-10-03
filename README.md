@@ -1,7 +1,7 @@
 # Multishot_Plus
 Multishot fork with exact_audio native lock, last shot output and latent output capabilities
 
-To use install Mu7ltishot from https://github.com/jlucasmcrell/ComfyUI-H3-Multishot
+To use install Multishot from https://github.com/jlucasmcrell/ComfyUI-H3-Multishot
 Backup 'h3_multishot_utils.py'
 Replace with modified version
 Restart ComfyUI
