@@ -720,7 +720,6 @@
           "name": "combined_av_latent",
           "type": "LATENT",
           "links": [
-            447,
             547
           ]
         }
@@ -1145,7 +1144,7 @@
         488.36663818359375
       ],
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1574,7 +1573,7 @@
         26
       ],
       "flags": {},
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -1615,7 +1614,7 @@
         26
       ],
       "flags": {},
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1755,7 +1754,7 @@
         334
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1862,7 +1861,7 @@
         78
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -1922,7 +1921,7 @@
         118
       ],
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -2099,60 +2098,6 @@
       "widgets_values_named": {
         "width": 2560,
         "height": 1440
-      }
-    },
-    {
-      "id": 244,
-      "type": "MiniMaxH3EasySaveLatent_SatoDive",
-      "pos": [
-        312.7641339772157,
-        310.72410159449424
-      ],
-      "size": [
-        440,
-        110
-      ],
-      "flags": {},
-      "order": 29,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "segments",
-          "shape": 7,
-          "type": "MINIMAX_H3_SEGMENTS",
-          "link": null
-        },
-        {
-          "name": "latent",
-          "shape": 7,
-          "type": "LATENT",
-          "link": 447
-        }
-      ],
-      "outputs": [
-        {
-          "name": "path",
-          "type": "STRING",
-          "links": []
-        }
-      ],
-      "title": "Save Latent  ->  feeds the continuation workflow",
-      "properties": {
-        "aux_id": "SatoDive/Minimax-H3-Latent-Continuation",
-        "ver": "1.2.0",
-        "Node name for S&R": "MiniMaxH3EasySaveLatent_SatoDive",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        },
-        "cnr_id": "minimax-h3-latent-continuation"
-      },
-      "widgets_values": [
-        "MusicVid1"
-      ],
-      "widgets_values_named": {
-        "filename_prefix": "MusicVid1"
       }
     },
     {
@@ -2505,14 +2450,6 @@
       "INT"
     ],
     [
-      447,
-      8,
-      6,
-      244,
-      1,
-      "LATENT"
-    ],
-    [
       83,
       51,
       0,
@@ -2720,10 +2657,10 @@
     "ue_links": [],
     "links_added_by_ue": [],
     "ds": {
-      "scale": 0.9643053664596855,
+      "scale": 0.8766412422360776,
       "offset": [
-        2279.7790569227564,
-        612.63857865402
+        2457.9398929491276,
+        302.88078288431825
       ]
     },
     "frontendVersion": "1.53.10",
